@@ -6,3 +6,7 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "0.0.1"
 
 %w/ubuntu/.each { |os| supports os }
+
+depends          "libexpat", ">= 0.0.1"
+depends          "libfreetype", ">= 0.0.1"
+depends          "fontconfig-config", ">= 0.0.1"
