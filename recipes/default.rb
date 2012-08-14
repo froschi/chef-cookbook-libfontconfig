@@ -1,6 +1,6 @@
-include_package "libexpat"
-include_package "libfreetype"
-include_package "fontconfig-config"
+include_recipe "libexpat"
+include_recipe "libfreetype"
+include_recipe "fontconfig-config"
 
 packages = Array.new
 
